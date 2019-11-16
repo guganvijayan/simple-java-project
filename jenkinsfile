@@ -2,13 +2,11 @@ pipeliene{
  agent any
 	stages{
 	stage ('install stage') {
-	
 	 steps{ 
-	 Withmaven('Maven : apache-maven-3.6.1') {
-	 sh ' mvn clean compile'
+	 sh 'mvn clean compile'
 	 }
 	 }
-	}
+	
 	
 	
 	}
