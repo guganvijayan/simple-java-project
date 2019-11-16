@@ -1,9 +1,9 @@
-pipeliene{
+pipeliene {
  agent any
-	stages{
+	stages {
 	stage ('install stage') {
-	 steps{ 
-	 sh 'mvn clean compile'
+	 steps { 
+	 bat 'mvn clean compile'
 	 }
 	 }
 	
